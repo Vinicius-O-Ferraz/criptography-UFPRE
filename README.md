@@ -1,6 +1,19 @@
 # Criptography UFPRE
 
+![Criptography_image](https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/bb53ef5e-db68-4c3f-a938-8b7a0f729b7d)
+
+![Ufrpe_Logo](https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/69484328-baf3-48f7-bf55-c31d6e696fde) ![BSI_Logo](https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/450a081e-5214-4ea4-89ac-df3cb771b9a0)
+
 This repository aims to register my studies in the subject of cryptography ministered by Professor Marcelo Gama at UFPR. Here, I will compile class notes, solved exercises, and any other relevant material for the course.
+
+# Introduction
+
+This project explores the fascinating world of cryptography, from its ancient roots to modern applications. It covers various topics:
+
+Classical Ciphers: Learn about historical encryption methods and how they were broken.
+Cryptographic Schemes: Dive into different techniques, including encryption types and methods for secure communication.
+Number Theory Applications: Explore how mathematical concepts like divisibility and factorization underpin modern cryptography.
+Computationally Difficult Problems: Understand the challenges at the heart of secure cryptosystems like RSA and El Gamal.
 
 # Content
 
