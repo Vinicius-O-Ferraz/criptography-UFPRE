@@ -2,7 +2,7 @@
 
 This repository aims to register my studies in the subject of cryptography ministered by Professor Marcelo Gama at UFPR. Here, I will compile class notes, solved exercises, and any other relevant material for the course.
 
-#Content
+# Content
 
 Unit I: Ancient Cryptography
 * Types of Ciphers
