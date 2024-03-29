@@ -2,6 +2,10 @@
 
 This repository aims to register my studies in the subject of cryptography ministered by Professor Marcelo Gama at UFPR. Here, I will compile class notes, solved exercises, and any other relevant material for the course.
 
+<center>
+![criptograpy](https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/ebae8d99-d8ea-4f30-8a32-f902248660b0) </center>
+</center>
+
 # Content
 
 Unit I: Ancient Cryptography
