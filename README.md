@@ -2,7 +2,8 @@
 
 This repository aims to register my studies in the subject of cryptography ministered by Professor Marcelo Gama at UFPR. Here, I will compile class notes, solved exercises, and any other relevant material for the course.
 
-![OIP](https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/bb53ef5e-db68-4c3f-a938-8b7a0f729b7d) ![OIP](https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/69484328-baf3-48f7-bf55-c31d6e696fde) ![OIP](https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/450a081e-5214-4ea4-89ac-df3cb771b9a0)
+![OIP](https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/bb53ef5e-db68-4c3f-a938-8b7a0f729b7d) 
+![OIP](https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/69484328-baf3-48f7-bf55-c31d6e696fde) ![OIP](https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/450a081e-5214-4ea4-89ac-df3cb771b9a0)
 
 # Content
 
