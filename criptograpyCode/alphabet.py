@@ -4,6 +4,7 @@ class Alphabet:
     A class containing methods for working with alphabets and text manipulation.
     """
     
+    @staticmethod
     def charRange(c1: chr,c2: chr)->list:
 
         """
@@ -23,6 +24,7 @@ class Alphabet:
 
         return list
     
+    @staticmethod
     def checkIfItsAlphabetic(message:str):
 
         """
@@ -41,6 +43,7 @@ class Alphabet:
         else:
             return True
 
+    @staticmethod
     def offsetV1(message: str, value: int) -> str:
 
         """
@@ -65,7 +68,8 @@ class Alphabet:
         
         else:
             return 'The written input is invalid'
-        
+    
+    @staticmethod
     def offsetV2(message: str, value: int) -> str:
 
         """
@@ -91,6 +95,7 @@ class Alphabet:
 
         return offseted_message
 
+    @staticmethod
     def clearText(message:str)->str:
 
         """
