@@ -1,3 +1,5 @@
+#Atividade 1
+
 class Alphabet:
 
     """
@@ -25,7 +27,7 @@ class Alphabet:
         return list
     
     @staticmethod
-    def checkIfItsAlphabetic(message:str):
+    def checkIfItsAlphabetic(message:str)->bool:
 
         """
        Checks if a string contains only alphabetical characters.
@@ -82,7 +84,8 @@ class Alphabet:
        Returns:
            The shifted string, preserving all characters.
        """
-        
+        message = message.replace(' ','').upper()
+
         offseted_message = ''
 
         for i in range(len(message)):
@@ -117,3 +120,10 @@ class Alphabet:
 
         return offseted_message
     
+
+test = 'banana grossa'
+print(Alphabet.offsetV1(test,3))
+print(Alphabet.offsetV2(test,3))
+
+test2 = Alphabet.charRange('a','k')
+print(test2)
