@@ -115,15 +115,19 @@ class Alphabet:
 
         for i in range(len(message)):
             
-            if message[i].isalpha():
+            if message[i].isascii() and message[i].isalpha():
                 offseted_message = offseted_message + message[i]
 
         return offseted_message
     
 
-test = 'banana grossa'
+test = 'banana groçaa'
 print(Alphabet.offsetV1(test,3))
 print(Alphabet.offsetV2(test,3))
 
 test2 = Alphabet.charRange('a','k')
 print(test2)
+
+test = Alphabet.clearText(test)
+
+print(test)
