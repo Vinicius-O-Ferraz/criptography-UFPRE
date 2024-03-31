@@ -11,6 +11,8 @@
 
 This repository aims to register my studies in the subject of cryptography ministered by Professor Marcelo Gama at UFPR. Here, I will compile class notes, solved exercises, and any other relevant material for the course.
 
+You can check this class code in the criptographyCode folder
+
 # Introduction
 
 This project explores the fascinating world of cryptography, from its ancient roots to modern applications. It covers various topics:
