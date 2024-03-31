@@ -5,10 +5,12 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/69484328-baf3-48f7-bf55-c31d6e696fde" alt="Sublime's custom image/>
-
-![BSI_Logo](https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/450a081e-5214-4ea4-89ac-df3cb771b9a0)
+  <img src="https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/450a081e-5214-4ea4-89ac-df3cb771b9a0" alt="BSI_Logo" style="float: left;" />
+  <img src="https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/69484328-baf3-48f7-bf55-c31d6e696fde" alt="UFRPE Logo" style="float: left;" />
 </p>
+<div style="clear: both;"></div>
+
+
 
 
 This repository aims to register my studies in the subject of cryptography ministered by Professor Marcelo Gama at UFPR. Here, I will compile class notes, solved exercises, and any other relevant material for the course.
