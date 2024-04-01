@@ -118,8 +118,7 @@ class Alphabet:
             if message[i].isascii() and message[i].isalpha():
                 offseted_message = offseted_message + message[i]
 
-        return offseted_message
-    
+        return offseted_message.upper()
 
 test = 'banana groçaa'
 print(Alphabet.offsetV1(test,3))
