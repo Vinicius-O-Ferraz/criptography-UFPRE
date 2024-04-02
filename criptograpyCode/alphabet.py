@@ -98,6 +98,7 @@ class Alphabet:
 
         return offseted_message
 
+    
     @staticmethod
     def clearText(message:str)->str:
 
@@ -110,23 +111,29 @@ class Alphabet:
        Returns:
            The string containing only alphabetical characters.
        """
-          
+
         offseted_message = ''
+        message = message.upper()
 
         for i in range(len(message)):
-            
-            if message[i].isascii() and message[i].isalpha():
-                offseted_message = offseted_message + message[i]
 
-        return offseted_message.upper()
+            if  message[i].isalpha():
+                if message[i] in ["Á", "À", "Ã", "Ã", "Ä"]:
+                    offseted_message += "A"
+                elif message[i] in ["É", "È", "Ê", "Ë"]:
+                    offseted_message += "E"
+                elif message[i] in ["Í", "Ì", "Î", "Ï"]:
+                    offseted_message += "I"
+                elif message[i] in ["Ó", "Ò", "Ô", "Õ", "Ö"]:
+                    offseted_message += "O"
+                elif message[i] in ["Ú", "Ù", "Û", "Ü"]:
+                    offseted_message += "U"
+                elif message[i] in ["Ç"]:
+                    offseted_message += "C"
+                else:
+                    offseted_message += message[i]
 
-test = 'banana groçaa'
-print(Alphabet.offsetV1(test,3))
-print(Alphabet.offsetV2(test,3))
+        return offseted_message
 
-test2 = Alphabet.charRange('a','k')
-print(test2)
 
-test = Alphabet.clearText(test)
 
-print(test)
