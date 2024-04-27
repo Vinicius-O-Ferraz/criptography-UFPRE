@@ -41,21 +41,3 @@ def difference(message):
     return sum([abs(counter.get(letter, 0) * 100 / len(message) - LETTER_FREQUENCY_PTBR[letter]) for letter in
                 alphabet]) / len(alphabet)
 
-def breakCipher(cipherText):
-    lowest_difference = math.inf
-    encryption_key = 0
-
-    for key in range(1, len(alphabet)):
-        current_plain_text = caesaerCypher(cipherText, - key)
-        current_difference = difference(current_plain_text)
-
-        if current_difference < lowest_difference:
-            lowest_difference = current_difference
-            encryption_key = key
-
-    return encryption_key
-
-cipher = Alphabet.clearText(stringMessage)
-decript = caesaerCypher(cipher, -key)
-print(key)
-print(breakCipher(cipher))
