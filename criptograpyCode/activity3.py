@@ -3,7 +3,6 @@ from random import randint
 from collections import Counter
 import math
 from activity1 import Alphabet
-reload(activity1)
 
 stringMessage =                     """
 De tudo, ao meu amor serei atento
@@ -25,6 +24,8 @@ Que não seja imortal, posto que é chama
 Mas que seja infinito enquanto dure.
 """
 
+stringMessage = stringMessage.lower()
+
 key = randint(0,26)
 alphabet = Alphabet.charRange('a','z')
 LETTER_FREQUENCY_PTBR = {
@@ -33,11 +34,42 @@ LETTER_FREQUENCY_PTBR = {
                     'v':1.67,'w':0.01,'x':0.21,'y':0.01,'z':0.47
                     }
 
-def caesaerCypher(message, key):
-     return Alphabet.offset(message,key)
+def caesarCypher(message,key,decrypt):
+    result = ''
+    for char in message:
+        if char not in alphabet:
+            result += char
+            continue
+        index = alphabet.index(char.lower())
+        if decrypt:
+            new_char = alphabet[(index - key) % len(alphabet)]
+        else:
+            new_char = alphabet[(index + key) % len(alphabet)]
+        result += new_char.upper() if char.isupper() else new_char
+    return result
+
 
 def difference(message):
     counter = Counter(message)
     return sum([abs(counter.get(letter, 0) * 100 / len(message) - LETTER_FREQUENCY_PTBR[letter]) for letter in
                 alphabet]) / len(alphabet)
 
+def break_cipher(cipher_text):
+    lowest_difference = math.inf
+    encryption_key = 0
+
+    for key in range(0, len(alphabet)):
+        current_plain_text = caesarCypher(cipher_text, key, True)
+        current_difference = difference(current_plain_text)
+
+        if current_difference < lowest_difference:
+            lowest_difference = current_difference
+            encryption_key = key
+
+    return encryption_key
+
+print(stringMessage)
+cipher = caesarCypher(stringMessage,key,False)
+print(cipher)
+decript = caesarCypher(cipher,key,True)
+print(break_cipher(cipher))
