@@ -1,4 +1,4 @@
-# Criptography UFPRE
+# Criptografia UFPRE 2023.2
 
 <p align="center">
   <img src="https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/bb53ef5e-db68-4c3f-a938-8b7a0f729b7d" alt="Sublime's custom image"/>
@@ -9,46 +9,28 @@
   <img src="https://github.com/Vinicius-O-Ferraz/criptography-UFPRE/assets/146992032/69484328-baf3-48f7-bf55-c31d6e696fde" alt="UFRPE Logo" style="float: left;" />
 </p>
 
-This repository aims to register my studies in the subject of cryptography ministered by Professor Marcelo Gama at UFPR. Here, I will compile class notes, solved exercises, and any other relevant material for the course.
+# Descrição
 
-You can check this class code in the criptographyCode folder
+Esta matéria visa ser uma fonte de consulta para os estudos da matéria de criptografia no curso de BSI na UFRPE. As atividades foram realizadas no semestre 2023.2, portanto é provável que as atividades sejam alteradas.
 
-# Introduction
+# Caso as coisas mudem
 
-This project explores the fascinating world of cryptography, from its ancient roots to modern applications. It covers various topics:
+Se as atividades forem alteradas, eu ficaria feliz se você contribuisse neste repositório com sua solução. Isto pode ser feito seguindo os passos.
 
-Classical Ciphers: Learn about historical encryption methods and how they were broken.
-Cryptographic Schemes: Dive into different techniques, including encryption types and methods for secure communication.
-Number Theory Applications: Explore how mathematical concepts like divisibility and factorization underpin modern cryptography.
-Computationally Difficult Problems: Understand the challenges at the heart of secure cryptosystems like RSA and El Gamal.
+* Clone o repositório usando o seguinte comando git
+   `git clone https://github.com/Vinicius-O-Ferraz/criptography-UFPRE.git`
+* Crie uma branch com o semestre cursado. Se estiver em 2025.1 isto pode ser feito da seguinte maneira
 
-# Content
+  `git checkout -b criptografia_2025_1`
+* Implemente suas soluções. Depois de feito, use o git para adicionar as mudanças seguindo o seguinte passo a passo
 
-Unit I: Ancient Cryptography
-* Types of Ciphers
-* Classical Ciphers
-* Pattern Recognition and Cryptanalysis Methods
+  `git add .`
 
-Unit II: Types of Cryptographic Schemes
-* Steganography
-* Requirements of a Cryptographic Scheme
-* Symmetric Encryption and Asymmetric Encryption
-* Signature and Authentication
-* Perfect Secrecy
+  `git commit -m "Descrição clara da alteração"`
 
-Unit III: Number Theory Concepts and their Applications in Cryptography
-* Divisibility and Modular Arithmetic
-* Integer Factorization
-* Fermat's Little Theorem and Euler's Theorem
-* Chinese Remainder Theorem
-* RSA and El Gamal Cryptosystems
-* Secret Sharing
-* Diffie-Hellman Key Exchange Model
+  `git push origin criptografia_2025_1 `
+  
+* Vá no github e neste repositório acesse a aba pull request e submeta sua request
 
-Unit IV: Computationally Difficult Problems and Associated Cryptosystems
-* Factoring Problem
-* Discrete Logarithm Problem
-* RSA Problem
-* Square Root Problem module n (optional)
-* Knapsack Problem (optional)
-* Elliptic Curve Cryptography
+# Agradecimento github
+ Obrigado por visitar este repositório! Fico feliz pelo seu interesse no projeto. Sinta-se à vontade para explorar e contribuir. Se gostou, deixe uma ⭐ para apoiar!
